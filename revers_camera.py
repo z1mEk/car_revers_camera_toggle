@@ -1,5 +1,5 @@
 #!/usr/bin/python3  
-# script for Szymon Nietrzeba ;)
+# script for qu4q
 
 # importy bibliotek
 import RPi.GPIO as GPIO  # obsługo gpio
