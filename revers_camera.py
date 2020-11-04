@@ -10,7 +10,7 @@ relay_gpio = 23 # ustawiamy gpio na 23
 
 # ustawienie GPIO
 GPIO.setmode(GPIO.BCM)  
-GPIO.setup(relay_gpio, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)  # gpio ustawiony jako pulldown
+GPIO.setup(relay_gpio, GPIO.IN, pull_up_down=GPIO.PUL_DOWN)  # gpio ustawiony jako pulldown
 
   
 # to jest funkcja, która zostanie wywołana przez przerwanie
